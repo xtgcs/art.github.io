@@ -1113,7 +1113,7 @@ ul.team-info-social li {
     color: #fff;
 }
 
-.services .bg-2{
+/* .services .bg-2{
     background-color: #f5857f;
 }
 .services .bg-1{
@@ -1130,30 +1130,30 @@ ul.team-info-social li {
 }
 .services .bg-6{
     background-color: #00DCB9;
-}
-/* .services .bg-1 {
-	background-image: url(../images/services/01.jpg)
+} */
+.services .bg-1 {
+	background-image: url(../images/gallery/18.jpg)
 }
 
 .services .bg-2 {
-	background-image: url(../images/services/02.jpg)
+	background-image: url(../images/gallery/18.jpg)
 }
 
 .services .bg-3 {
-	background-image: url(../images/services/03.jpg)
+	background-image: url(../images/gallery/16.jpg)
 }
 
 .services .bg-4 {
-	background-image: url(../images/services/04.jpg)
+	background-image: url(../images/gallery/18.jpg)
 }
 
 .services .bg-5 {
-	background-image: url(../images/services/05.jpg)
+	background-image: url(../images/gallery/11.jpg)
 }
 
 .services .bg-6 {
-	background-image: url(../images/services/06.jpg)
-} */
+	background-image: url(../images/gallery/16.jpg)
+}
 
 .pozo-gallery p {
 	position: absolute;
