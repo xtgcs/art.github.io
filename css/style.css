@@ -1049,9 +1049,10 @@ ul.team-info-social li {
 	position: relative;
 	background-size: cover;
 	background-position: 50% 0%!important;
+	background: #191919;
 }
 
-/* .services .item:before {
+.services .item:before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -1059,7 +1060,7 @@ ul.team-info-social li {
 	right: 0;
 	bottom: 0;
 	background: rgba(12,12,12,.5);
-} */
+}
 
 .services .item:hover:after {
 	opacity: 0;
@@ -1074,16 +1075,16 @@ ul.team-info-social li {
 }
 
 .services .item:after {
-	/* content: "";
+	content: "";
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #ffffff;;
+	background: #191919;
 	z-index: 1;
 	-webkit-transition: all .4s;
-	transition: all .4s */
+	transition: all .4s
 }
 
 .services .item .con {
