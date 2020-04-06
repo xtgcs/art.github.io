@@ -1061,7 +1061,7 @@ ul.team-info-social li {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: rgba(12,12,12,.5);
+	/* background: rgba(12,12,12,.5); */
 }
 
 .services .item:hover:after {
@@ -1083,7 +1083,7 @@ ul.team-info-social li {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #191919;
+	/* background: #191919; */
 	z-index: 1;
 	-webkit-transition: all .4s;
 	transition: all .4s
@@ -1116,7 +1116,7 @@ ul.team-info-social li {
     color: #fff;
 }
 
-/* .services .bg-1{
+.services .bg-1{
     background-color: #f5857f;
 }
 .services .bg-2{
@@ -1133,8 +1133,8 @@ ul.team-info-social li {
 }
 .services .bg-6{
     background-color: #00DCB9;
-}  */
-.services .bg-1 {
+} 
+/* .services .bg-1 {
 	background-image: url(../images/gallery/18.jpg)
 }
 
@@ -1156,7 +1156,7 @@ ul.team-info-social li {
 
 .services .bg-6 {
 	background-image: url(../images/gallery/16.jpg)
-}
+} */
 
 .pozo-gallery p {
 	position: absolute;
