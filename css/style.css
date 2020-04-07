@@ -749,7 +749,7 @@ span,a {
 	height: 50px;
 	background-image: none;
 	/* background-color: #191919; */
-	background: #ffffff;
+	/* background: #ffffff; */
 	z-index: 2;
 	cursor: pointer;
 }
@@ -758,7 +758,7 @@ span,a {
 	position: relative;
 	left: 50%;
 	top: 50%;
-	color: #000;
+	color: #fff;
 	-webkit-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
 	transition: all .3s ease-in-out;
@@ -841,9 +841,10 @@ span,a {
 
 .swiper-button-prev {
 	position: absolute;
-	top: auto;
-	bottom: 0;
+	top: 0;
+	/* bottom: 0; */
 	left: 0;
+	margin-top: 0;
 }
 
 .swiper-slide {
@@ -864,6 +865,7 @@ span,a {
 	width: 100%;
 	height: auto;
 	overflow: hidden;
+	position: relative;
 }
 
 .swiper-slide-block .swiper-slide-block-img a {
@@ -1852,14 +1854,18 @@ ul.team-info-social li {
 
 	.swiper-button-next {
 		right: 135px;
-        background: #ffffff;
+        /* background: #ffffff; */
 	}
 
 	.swiper-button-prev {
+		top:auto;
 		bottom: 50px;
-        background: #ffffff;
+        /* background: #ffffff; */
 	}
 
+	.swiper-button-next i, .swiper-button-prev i{
+		color: #000;
+	}
 	.swiper-slide-block .swiper-slide-block-img {
 		width: 70%;
 		max-height: 560px;

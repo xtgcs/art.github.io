@@ -59,6 +59,9 @@
 .container{
     padding: 0;
 }
+.mb-4{
+    margin-bottom: 10px !important;
+}
 @media (min-width: 992px){
     .col-10,.col-lg-10 {
         max-width: 100%;
@@ -126,4 +129,7 @@
         padding-left: 15px;
         padding-right: 15px;
     } */
+    .mb-4{
+        margin-bottom: 1.5rem !important;
+    }
 }
