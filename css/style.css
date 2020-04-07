@@ -1598,6 +1598,11 @@ ul.team-info-social li {
 		margin: 0;
 		text-align: center;
 	}
+	.nav-link {
+		position: relative;
+		padding: 8px 0!important;
+		display: inline-block;
+	}
 }
 
 .next-post-img {
