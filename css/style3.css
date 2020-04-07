@@ -935,7 +935,7 @@ span,a {
 
 .swiper-slide-block .next-number {
 	font-family: Noto Sans SC;
-	font-size: 80px;
+	font-size: 120px;
 	font-weight: 400;
 	width: 100%;
 	display: block;
@@ -947,12 +947,10 @@ span,a {
 	z-index: -1;
 	text-align: right;
 	margin: 0;
-    line-height: 85px;
+    line-height: 200px;
     opacity: 0.6;
 }
-.next-link{
-	display: none;
-}
+
 .pozo-section-slider {
 	width: 100%;
 	height: auto;
@@ -1053,8 +1051,9 @@ ul.team-info-social li {
 	padding: 40px 20px;
 	position: relative;
 	background-size: cover;
-	background-position: 50% 0%!important;
-	background: #191919;
+	/* background-position: 50% 0%!important; */
+	background-position: center !important;
+	/* background: #191919; */
 }
 
 .services .item:before {
@@ -1086,12 +1085,17 @@ ul.team-info-social li {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #191919;
+	/* background: #191919; */
 	z-index: 1;
 	-webkit-transition: all .4s;
 	transition: all .4s
 }
-
+ .services .col-md-3:nth-child(odd) .item:after{
+   	background: rgba(0,0,0,0.6);
+} 
+.services .col-md-3:nth-child(even) .item:after{
+	background: rgba(255,237,0,0.6);
+} 
 .services .item .con {
 	position: relative;
 	z-index: 7;
@@ -1129,10 +1133,10 @@ ul.team-info-social li {
    background-color: #00DCB9;
 }
 .services .bg-4{
-	background-color: #0046FF;
+	background-color: #0046FF;	
 }
 .services .bg-5{
-	background-color: #0046FF; 
+    background-color: #0046FF; 
 }
 .services .bg-6{
 	background-color: #00DCB9;
@@ -1767,8 +1771,7 @@ ul.team-info-social li {
 
 @media(max-width:767px) {
 	#pozo-page-wrapper {
-		/* padding: 0 15px; */
-		padding: 0;
+		padding: 0 15px;
 	}
 
 	section {
@@ -1805,35 +1808,6 @@ ul.team-info-social li {
 		max-width: 1245px;
 		width: 100%;
 	}
-}
-
-.btn_box{
-    width: 44px;
-    height: 44px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-}
-.btn_box svg{
-    display: block;
-    height: 100%;
-    overflow: visible;
-    position: relative;
-    width: 100%;
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-.btn_box .icon{
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    opacity: 0;
 }
 
 @media(min-width:1200px) {
@@ -1902,18 +1876,8 @@ ul.team-info-social li {
 
 	.swiper-slide-block .next-number {
 		margin-top: 20px;
-		font-size: 200px;
-		line-height: 168px;
-	}
-	.next-link{
-		display: block;
-	}
-	.btn_box{
-		width: 44px;
-		height: 44px;
-		position: fixed;
-		bottom: 50px;
-		right: 50px;
+		font-size: 250px;
+		/* line-height: 200px; */
 	}
 }
 
@@ -1927,4 +1891,32 @@ ul.team-info-social li {
 	.pozo-form-wrapper {
 		width: 80%;
 	}
+}
+.btn_box{
+    width: 44px;
+    height: 44px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+.btn_box svg{
+    display: block;
+    height: 100%;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.btn_box .icon{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    opacity: 0;
 }

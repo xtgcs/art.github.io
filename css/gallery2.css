@@ -1,0 +1,57 @@
+.col-10 {
+    max-width: 100%;
+    flex:0 0 100%
+}
+
+.col-9 {
+    max-width: 90%;
+    flex:0 0 90%
+}
+
+.col-8 {
+    max-width: 80%;
+    flex:0 0 80%
+}
+
+.col-7 {
+    max-width: 70%;
+    flex:0 0 70%
+}
+
+.col-6 {
+    max-width: 60%;
+    flex:0 0 60%
+}
+
+.col-5{
+    max-width: 50%;
+    flex:0 0 50%
+}
+
+.col-4{
+    max-width: 40%;
+    flex:0 0 40%
+}
+
+.col-3{
+    max-width: 30%;
+    flex:0 0 30%
+}
+
+.col-2{
+    max-width: 20%;
+    flex:0 0 20%
+}
+
+.col-1{
+    max-width: 10%;
+    flex:0 0 10%
+}
+@media (min-width: 992px){
+ 
+    .col-lg-2 {
+        max-width: 33.333333%;
+        flex:0 0 33.333333%;
+    }
+    
+}

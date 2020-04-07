@@ -607,9 +607,9 @@ span,a {
 }
 
 .nav-item.active .nav-link {
-	color: #0046FF!important;
+	/* color: #0046FF!important; */
     font-weight: bold;
-    font-size: 22.5px;
+    /* font-size: 22.5px; */
 }
 
 .nav-link {
@@ -659,7 +659,7 @@ span,a {
 }
 
 .nav-item.active{
-    border-bottom: 2px solid #0046FF;
+	border-bottom: 2px solid #FFED00;
 }
 
 .nav-item .dropdown-menu {
